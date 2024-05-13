@@ -1,4 +1,4 @@
-* ,textarea {
+* , p,textarea {
     box-sizing: border-box;
     font-family: "Noto Sans", sans-serif;
     margin : 0;
@@ -6,11 +6,9 @@
     border : 0;
     color: black;
     outline: 0;
+    word-spacing: 0;
 }
-p,label{
-    margin : 0;
-    word-spacing: 0%;
-}
+
 #body-container{
     background-color: #D9E8E5;
 }
@@ -29,11 +27,7 @@ p,label{
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
 }
-@media screen and (max-width : 1100px){
-    .form-container{
-        padding : 25px;
-    }
-}
+
 .opening-text{
     line-height: 2;
 }
@@ -128,9 +122,7 @@ input[type = "text"]::placeholder{
 }
 
 /* form2.html */
-/* .container-form-2{
-    padding-top: 50px;
-} */
+
 .input-section-2{
     margin-bottom: 50px;
     width: 100%;
@@ -213,6 +205,7 @@ input[type = "text"]::placeholder{
     background-color : #A6C9C2;
     backdrop-filter: blur(5px);
     transition: all 0.3s ease-in-out;
+    width: 100%;
 }
 .input-section-4:hover , .input-section-5:hover{
     background-color: #D9E8E5;
@@ -297,4 +290,19 @@ input[type = "text"]::placeholder{
     -webkit-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.62);
     -moz-box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.62);
     box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.62);
+}
+
+@media screen and (max-width : 1100px){
+    .form-container{
+        padding : 25px;
+    }
+    .input-section-3{
+        padding : 5px;
+    }
+    .s4-name{
+        text-align: center;
+    }
+    .thankyou-container{
+        padding : 0px 20px;
+    }
 }
