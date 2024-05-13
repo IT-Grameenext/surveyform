@@ -295,10 +295,7 @@ input[type = "text"]::placeholder{
     .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6{
         padding : 20px 5px;
     }
-    .name{
-        text-align: center;
-    }
-    .s4-name{
+    .name, .dept-name, .year, .position-role, .s4-name, .comments{
         text-align: center;
     }
     .thankyou-container{
