@@ -296,7 +296,7 @@ input[type = "text"]::placeholder{
         padding : 25px 5px;
     }
     .name{
-        text-align: justify;
+        text-align: center;
     }
     .s4-name{
         text-align: center;
