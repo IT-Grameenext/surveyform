@@ -297,7 +297,10 @@ input[type = "text"]::placeholder{
         padding : 25px;
     }
     .input-section-3{
-        padding : 5px;
+        padding : 25px 5px;
+    }
+    .name{
+        text-align: justify;
     }
     .s4-name{
         text-align: center;
