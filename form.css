@@ -292,8 +292,8 @@ input[type = "text"]::placeholder{
     .form-container{
         padding : 25px;
     }
-    .input-section-3{
-        padding : 25px 5px;
+    .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6{
+        padding : 20px 5px;
     }
     .name{
         text-align: center;
