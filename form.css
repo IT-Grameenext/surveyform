@@ -270,6 +270,12 @@ input[type = "text"]::placeholder{
         background-color : #A6C9C2;
     }
 }
+#submit {
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    padding : 10px 15px;
+}
 
 /* thankYou.html */
 .thankyou-container{   
