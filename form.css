@@ -292,11 +292,12 @@ input[type = "text"]::placeholder{
     .form-container{
         padding : 20px;
     }
-    .form-container-7{
-        padding : 5px;
-    }
-    .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6, #comment-section{
+
+    .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6{
         padding : 20px 5px;
+    }
+    #comment-section{
+        padding : 10px 15px;
     }
     .name, .dept-name, .year, .position-role, .s4-name, .comments{
         text-align: center;
