@@ -292,7 +292,7 @@ input[type = "text"]::placeholder{
     .form-container{
         padding : 25px;
     }
-    .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6{
+    .input-section,.input-section-2,.input-section-3,.input-section-4,.input-section-5,.input-section-6, #comment-section{
         padding : 20px 5px;
     }
     .name, .dept-name, .year, .position-role, .s4-name, .comments{
