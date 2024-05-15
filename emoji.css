@@ -5,13 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-html,body{
-  display: grid;
-  height: 100%;
-  text-align: center;
-  place-items: center;
-  background: #664AFF;
-}
+
 .range{
   height: 80px;
   background: #fff;
