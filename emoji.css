@@ -57,7 +57,7 @@
   -webkit-appearance: none;
   width: 100%;
   height: 3px;
-  background: #79AEA3;
+  background: rgba(43, 46, 245, 0.16);
   border-radius: 5px;
   outline: none;
   border: none;
@@ -68,8 +68,8 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #79AEA3;
-  border: 1px solid #79AEA3;
+  background: rgba(105, 108, 255);
+  border: 1px solid rgba(105, 108, 255);
   cursor: pointer;
 }
 .range input::-moz-range-thumb{
@@ -77,8 +77,8 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #79AEA3;
-  border: 1px solid #79AEA3;
+  background: rgba(105, 108, 255, 0.16);
+  border: 1px solid rgba(105, 108, 255, 0.16);
   cursor: pointer;
 }
 .range input::-moz-range-progress{
@@ -86,8 +86,8 @@
 }
 
 .range:hover{
-  background: #A6C9C2;
+  background: rgba(43, 46, 245, 0.16);
 }
 .range:hover input{
-  background: #D9E8E5;
+  background: white;
 }

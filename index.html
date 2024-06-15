@@ -17,7 +17,7 @@
         <div class="heading">
         <H1>Employee Satisfaction Survey</H1>
         <div class = 'opening-text'>
-        Thank you for taking the time to complete this employee satisfaction survey. Your feedback is important to us and will help us understand how we can improve the work environment and your overall experience at <b>NEXUS/GRAMEENEXT</b>. The survey is anonymous, so please feel free to provide honest and candid responses.
+        Thank you for taking the time to complete this employee satisfaction survey. Your feedback is important to us and will help us understand how we can improve the work environment and your overall experience at <b>NEXUS/GRAMEENEXT</b>. The survey is anonymous, so please feel free to provide honest responses.
         </div>
         <form action = "form2.html">
         <section>
@@ -27,7 +27,7 @@
         <div class="form-items">
                 <div class = "input-section row">
                 <div class = "name col-lg-3 col-md"><label for = "name">Enter your Name</label></div>
-                    <input type="text" class="form-control col-lg col-sm" placeholder="Full Name" aria-label="Username" class = "username" id = "name">
+                    <input type="text" class="form-control col-lg col-sm" placeholder="Full Name" aria-label="Username" class = "username" id = "name" name = "name">
                 </div>
                     <div class = "input-section row">
                     <div class = "name col-lg-3 col-md"><label>Which Company ?</label></div>
@@ -48,29 +48,39 @@
                 </div>
                 <div class="input-section row">
                 <div class = "dept-name col-lg-3 col-md"><label for = "dept-name">Department/Team</label></div>
-                <select class="form-select form-select col-sm " aria-label="Large select example" id = "select-dropdown">
-                    <option selected>Open this select menu</option>
-                    <option value="1" name = "dept">One</option>
-                    <option value="2" name = "dept">Two</option>
-                    <option value="3" name = "dept">Three</option>
+                <select class="form-select form-select col-sm " aria-label="Large select example" id = "select-dropdown" name = "Dept">
+                    <option selected>--Select--</option>
+                    <option value="1" name = "dept" value = "Sales">Sales</option>
+                    <option value="2" name = "dept" value = "Procurement">Procurement</option>
+                    <option value="3" name = "dept" value = "Finance">Finance</option>
+                    <option value="3" name = "dept" value = "Operations">Operations</option>
+                    <option value="3" name = "dept" value = "Stock/Inventory">Stock/Inventory</option>
+                    <option value="3" name = "dept" value = "Information Technology">Information Technology</option>
+                    <option value="3" name = "dept" value = "Logistics">Logistics</option>
+                    <option value="3" name = "dept" value = "Delivery and Dispatch Operations">Delivery and Dispatch Operations</option>
+                    <option value="3" name = "dept" value = "Admin and Housekeeping">Admin and Housekeeping</option>
+                    <option value="3" name = "dept" value = "Human Resources">Human Resources</option>
+                    <!-- //Grameenext  -->
+                    <option value="1" name = "dept" value = "CRM">CRM</option>
+                    <option value="1" name = "dept" value = "CRM Support">CRM Support</option>
+                    <option value="1" name = "dept" value = "Procurement">Procurement</option>
+                    <option value="1" name = "dept" value = "Information Technology">Information Technology</option>
+                    <option value="1" name = "dept" value = "Operations">Operations</option>
+                    <option value="1" name = "dept" value = "Warehouse Operations">Warehouse Operations</option>
+                    <option value="3" name = "dept" value = "Finance">Finance</option>
+                    <option value="3" name = "dept" value = "Stock/Inventory">Stock/Inventory</option>
+                    <option value="3" name = "dept" value = "HR">HR</option>
                     </select>
                 </div>
                 <div class="input-section row">
                     <div class = "year col-lg-3 col-md"><label for = "year">How long have you been with this company ?</label></div>
                     <select class="form-select form-select col-sm " aria-label="Large select example" id = "select-dropdown">
-                        <option selected>Open this select menu</option>
-                        <option value="1" name = "year-of-experience">One</option>
-                        <option value="2" name = "year-of-experience">Two</option>
-                        <option value="3" name = "year-of-experience">Three</option>
-                    </select>
-                </div>
-                <div class="input-section row">
-                    <div class = "position-role col-lg-3 col-md"><label for = "position-role">Position Role</label></div>
-                    <select class="form-select form-select col-sm " aria-label="Large select example" id = "select-dropdown">
-                        <option selected>Open this select menu</option>
-                        <option value="1" name = "role">One</option>
-                        <option value="2" name = "role">Two</option>
-                        <option value="3" name = "role">Three</option>
+                        <option selected>--Select--</option>
+                        <option value="Less than 1 Year" name = "year">Less than 1 Year</option>
+                        <option value="1 - 3 years" name = "year">1 - 3 years</option> // grameenext
+                        <option value="4 - 6 years" name = "year">4 - 6 years</option> //   grameenext
+                        <option value="7 - 10 years" name = "year">7 - 10 years</option>
+                        <option value="More than 10 years" name = "year">More than 10 years</option>
                     </select>
                 </div>
                 <button class="btn btn-primary" type="submit" id = "proceedButton">Proceed</button>
