@@ -105,7 +105,9 @@ input[type = "text"]::placeholder{
     display : flex;
     align-items: center;
 }
-
+#grameenext, #nexus {
+    width : 70%;
+}
 #grameenext ,#nexus{
     transition: 0.5s ease-in-out;
 }
